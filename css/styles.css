@@ -509,7 +509,8 @@ img {
 }
 
 .soc-footer {
-  text-align: center;
+  display: inline-block;
+  padding-left: 120px;
 }
 .title-soc-footer {
   font-weight: 500;
@@ -526,13 +527,11 @@ img {
 }
 
 .footer-soc-item {
-  width: 40px;
-  height: 40px;
 }
 
 .footer-soc-link {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
